@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AsyncNetworking_Example' do
+  pod 'AsyncNetworking', :path => '../'
+
+  target 'AsyncNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
